@@ -62,4 +62,4 @@ while i < 200:
     print("执行登录成功的次数%s"%i)
 
 def search_product():
-    search
+    search = driver.find
