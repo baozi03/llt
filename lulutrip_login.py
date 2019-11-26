@@ -5,7 +5,7 @@ def llt_login(driver):
     from selenium.webdriver.common.keys import Keys
 
     #打开浏览器输入url
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     url1 = "https://www.lulutrip.com"
     driver.get(url1)
     driver.maximize_window()
